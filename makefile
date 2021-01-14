@@ -1,2 +1,2 @@
-option_chooser: option_chooser.c example.c
-	gcc -o option_chooser option_chooser.c example.c
+option_chooser.o: option_chooser.c example.c
+	gcc -o option_chooser.o option_chooser.c example.c
